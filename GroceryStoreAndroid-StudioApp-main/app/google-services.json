@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087491771078",
+    "project_id": "auth-cd8fe",
+    "storage_bucket": "auth-cd8fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087491771078:android:7e744facf593cdebf625c7",
+        "android_client_info": {
+          "package_name": "com.example.storeqrscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087491771078-bmgveigmn3uhfte0pcjovo5dtr78104h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS1r5v4Amrd-GBmnw3Ns1JhJTdms4JtoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087491771078-bmgveigmn3uhfte0pcjovo5dtr78104h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guide"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 1:\nWhen Click on The Play Button the Alarm Set Automatically by selecting the random time."
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 2:\nOn the Top right corner a setting button use to set alarm time by yourself \nOn the Setting Screen we have time setter so you can easily set time for alarm"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+
+</LinearLayout>

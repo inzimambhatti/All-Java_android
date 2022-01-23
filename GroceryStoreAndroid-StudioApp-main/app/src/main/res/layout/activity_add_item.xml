@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItem">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <EditText
+                android:id="@+id/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/item_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/itemQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Quantity"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/itemName" />
+
+            <EditText
+                android:id="@+id/itemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="Price"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/itemQuantity" />
+
+            <EditText
+                android:id="@+id/itemDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="Discount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/itemPrice" />
+
+            <EditText
+                android:id="@+id/discountStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:inputType="none"
+                android:hint="Discount Start"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/itemDiscount" />
+
+            <EditText
+                android:id="@+id/discountEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:layout_marginBottom="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:hint="Discount End"
+                android:inputType="none"
+                app:layout_constraintBottom_toTopOf="@+id/save"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/discountStart" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="336dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:text="Save"
+                android:textColor="#0E5A4B"
+                android:textSize="24sp"
+                app:backgroundTint="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/discountEnd" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

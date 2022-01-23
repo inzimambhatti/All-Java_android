@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/itemNameU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/item_name"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/itemQuantityU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Quantity" />
+
+            <EditText
+                android:id="@+id/itemPriceU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="Price" />
+
+            <EditText
+                android:id="@+id/itemDiscountU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="Discount" />
+
+            <EditText
+                android:id="@+id/discountStartU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:inputType="none"
+                android:hint="Discount Start" />
+
+            <EditText
+                android:id="@+id/discountEndU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:layout_marginBottom="@dimen/GeneralMargin"
+                android:width="340dp"
+                android:ems="10"
+                android:hint="Discount End"
+                android:inputType="none" />
+
+            <Button
+                android:id="@+id/saveU"
+                android:layout_width="336dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="@dimen/GeneralMargin"
+                android:layout_marginLeft="@dimen/GeneralMargin"
+                android:layout_marginTop="@dimen/GeneralMargin"
+                android:layout_marginEnd="@dimen/GeneralMargin"
+                android:layout_marginRight="@dimen/GeneralMargin"
+                android:text="Save"
+                android:textColor="#0E5A4B"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
